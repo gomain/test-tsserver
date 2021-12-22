@@ -111,6 +111,8 @@
      * This option is experimental. The default value is false.
      */
     // "useWorkspaces": true
+
+    useWorkspaces: true
   },
 
   /**
@@ -456,6 +458,19 @@
     //   "packageName": "my-toolchain",
     //   "projectFolder": "tools/my-toolchain",
     //   "reviewCategory": "tools"
+    // }
+
+    {
+      "packageName": "ts-export",
+      "projectFolder": "ts-export"
+    },
+    {
+      "packageName": "cjs-import",
+      "projectFolder": "cjs-import"
+    }
+    // {
+    //   "packageName": "mjs-import",
+    //   "projectFolder": "mjs-import"
     // }
   ]
 }

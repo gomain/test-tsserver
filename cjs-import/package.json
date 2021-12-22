@@ -1,0 +1,25 @@
+{
+  "name": "cjs-import",
+  "version": "1.0.0",
+  "description": "test cjs project importing linked package that exports types",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "commonjs",
+    "tsserver",
+    "import",
+    "lsp",
+    "typescript-language-server",
+    "type-definition"
+  ],
+  "author": "Joe Gomain Hoyes <gomain@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ts-export": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "14.18.0"
+  }
+}

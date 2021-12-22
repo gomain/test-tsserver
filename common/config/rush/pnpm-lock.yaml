@@ -1,0 +1,27 @@
+lockfileVersion: 5.3
+
+importers:
+
+  .:
+    specifiers: {}
+
+  ../../cjs-import:
+    specifiers:
+      '@types/node': 14.18.0
+      ts-export: workspace:*
+    dependencies:
+      ts-export: link:../ts-export
+    devDependencies:
+      '@types/node': 14.18.0
+
+  ../../ts-export:
+    specifiers:
+      '@types/node': 14.18.0
+    devDependencies:
+      '@types/node': 14.18.0
+
+packages:
+
+  /@types/node/14.18.0:
+    resolution: {integrity: sha512-0GeIl2kmVMXEnx8tg1SlG6Gg8vkqirrW752KqolYo1PHevhhZN3bhJ67qHj+bQaINhX0Ra3TlWwRvMCd9iEfNQ==}
+    dev: true

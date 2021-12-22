@@ -1,0 +1,22 @@
+{
+  "name": "ts-export",
+  "version": "1.0.0",
+  "description": "test project that exports typescript types",
+  "main": "lib/src/main.js",
+  "types": "lib/types/main.d.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "typescript",
+    "tsserver",
+    "lsp",
+    "typescript-language-server",
+    "type-definition"
+  ],
+  "author": "Joe Gomain Hoyes <gomain@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "14.18.0"
+  }
+}
