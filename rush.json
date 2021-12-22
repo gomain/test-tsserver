@@ -467,10 +467,10 @@
     {
       "packageName": "cjs-import",
       "projectFolder": "cjs-import"
+    },
+    {
+      "packageName": "mjs-import",
+      "projectFolder": "mjs-import"
     }
-    // {
-    //   "packageName": "mjs-import",
-    //   "projectFolder": "mjs-import"
-    // }
   ]
 }

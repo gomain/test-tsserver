@@ -1,0 +1,23 @@
+{
+  "name": "mjs-import",
+  "version": "1.0.0",
+  "description": "test tsserver importing esmodules",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tsserver",
+    "lsp",
+    "typescript-langauge-server",
+    "type-definition"
+  ],
+  "author": "Joe Gomain Hoyes <gomain@gomail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ts-export": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "14.18.0"
+  }
+}

@@ -2,8 +2,15 @@
   "name": "ts-export",
   "version": "1.0.0",
   "description": "test project that exports typescript types",
-  "main": "lib/src/main.js",
-  "types": "lib/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/main.d.ts",
+      "import": "./lib/src/main.mjs",
+      "require": "./lib/src/main.cjs"
+    }
+  },
+  "main": "./lib/src/main.cjs",
+  "types": "./lib/types/main.d.ts",
   "scripts": {
     "test": "test"
   },
